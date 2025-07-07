@@ -88,5 +88,5 @@ if st.button("Get Answer"):
 
 # Display response
 if "answer" in st.session_state:
-    st.markdown("### 🤖 Answer:")
+    st.markdown("### Answer:")
     st.write(st.session_state.answer)
